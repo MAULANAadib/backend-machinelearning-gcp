@@ -28,7 +28,7 @@ async function predictClassification(model, image) {
 
         return {
             label,
-            confidenceScore,
+            //confidenceScore,//
             suggestion
         };
 

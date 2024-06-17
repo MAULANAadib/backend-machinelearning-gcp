@@ -21,7 +21,7 @@ async function predictClassification(model, image) {
         let suggestion;
 
         if (isCancer) {
-            suggestion = 'Segera berkonsultasi dengan dokter spesialis kulit terdekat.';
+            suggestion = 'Segera periksa ke dokter!';
         } else {
             suggestion = 'Tetap jaga kesehatan kulit Anda.';
         }
